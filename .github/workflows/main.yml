@@ -32,13 +32,13 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Listing Directories
+          echo "Listing Directories"
           ls -a
-          echo Checking JavaVersion
+          echo "Checking JavaVersion"
           java -version
-          echo Checking gitVersion
+          echo "Checking gitVersion"
           git --version
-          echo checking BuildToolsVersion
+          echo "checking BuildToolsVersion"
           mvn --version
           gradle --version
           ant -version
