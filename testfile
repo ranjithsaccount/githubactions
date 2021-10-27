@@ -1,1 +1,1 @@
-TestFileToCheckBuild
+A program that becomes a reusable component to be used in workflows. Actions can install software for the environment, set up authentication, or automate complex sets of tasks. You can find actions in the GitHub Marketplace, or create your own and share them with your community.
