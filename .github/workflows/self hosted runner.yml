@@ -17,7 +17,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
    
-  build windows:
+  build_selhosted_windows:
     runs-on: [self-hosted, windows, X64]
     steps:
       - uses: actions/checkout@v2
